@@ -1,0 +1,28 @@
+.background-img {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.backImg {
+    width: 15rem;
+    opacity: 0.7;
+}
+
+.front-logo {
+    width: 3rem;
+    /* display: flex; */
+    /* justify-content: center; */
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+    align-items: center;
+    left: 3rem;
+}
+
+.frontLogo {
+    width: 20rem;
+    
+}

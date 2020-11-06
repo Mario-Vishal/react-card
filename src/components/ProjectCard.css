@@ -1,0 +1,34 @@
+.container {
+    text-align: center;
+    
+    /* display: flex; */
+    align-items:center;
+    justify-content: center;
+    position: relative; 
+    /* perspective: 1000px; */
+    
+}
+
+
+.card {
+    transform-style: preserve-3d;
+    width: 400px;
+    min-height: 80vh;
+    margin: 20px;
+    text-align: center;
+    border-radius: 0.5em;
+    
+    box-shadow: 0.5px 0.3px 20px black;
+    padding: 0.5rem;
+    /* position: relative; */
+    font-family: 'Poppins',Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.card:hover{
+    box-shadow: 0.1px 0.2px 30px black ;
+    transform: translateY(-10px);
+    transition-timing-function: ease-out;
+    animation-duration: 2s;
+    
+}
